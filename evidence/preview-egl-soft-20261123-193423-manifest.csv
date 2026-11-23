@@ -1,0 +1,2 @@
+seed,file,success,steps,termination_reason,status
+2000,episode_002000.npz,True,75,success,collected
