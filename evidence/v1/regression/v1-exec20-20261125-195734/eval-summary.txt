@@ -1,0 +1,8 @@
+=== Closed-loop evaluation summary ===
+episodes: 10
+successes: 5
+success rate: 50.0%
+mean steps: 188.5
+mean clipped-step fraction: 98.5%
+mean inference latency: 1.46 ms
+csv: /home/ubuntu/GitHub/mujoco-act-panda-lift/evidence/v1/regression/v1-exec20-20261125-195734/exec20.csv
