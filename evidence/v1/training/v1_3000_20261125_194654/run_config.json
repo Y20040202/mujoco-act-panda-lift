@@ -1,0 +1,30 @@
+{
+  "arguments": {
+    "train_dataset_root": "/home/ubuntu/embodied_internship/mujoco-act-panda-lift/data/lerobot/v1/train",
+    "val_dataset_root": "/home/ubuntu/embodied_internship/mujoco-act-panda-lift/data/lerobot/v1/val",
+    "run_dir": "/home/ubuntu/embodied_internship/mujoco-act-panda-lift/checkpoints/act/v1_3000_20261125_194654",
+    "train_repo_id": "Y20040202/panda-lift-v1-train",
+    "val_repo_id": "Y20040202/panda-lift-v1-val",
+    "steps": 3000,
+    "batch_size": 32,
+    "num_workers": 4,
+    "device": "cuda",
+    "seed": 0,
+    "max_grad_norm": 10.0,
+    "log_every": 50,
+    "val_every": 500,
+    "val_batches": 0,
+    "checkpoint_every": 500
+  },
+  "act_experiment": {
+    "fps": 20,
+    "image_key": "observation.images.front",
+    "image_channels": 3,
+    "image_height": 96,
+    "image_width": 96,
+    "state_dim": 12,
+    "action_dim": 4,
+    "chunk_size": 20,
+    "n_action_steps": 20
+  }
+}

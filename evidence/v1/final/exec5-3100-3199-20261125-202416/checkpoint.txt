@@ -1,0 +1,1 @@
+/home/ubuntu/embodied_internship/mujoco-act-panda-lift/checkpoints/act/v1_3000_20261125_194654/checkpoints/step_003000

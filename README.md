@@ -46,5 +46,7 @@ RGB 图像、机器人状态、动作和时间戳检查通过，五个抽查帧�
 最终评测中，成功回合平均用 77.2 步。63 个失败回合全部达到 300 步上限，其中 34 个回合的方块最大升高小于 1 mm。动作裁剪只出现在夹爪通道。
 
 - [复跑命令、失败分析和证据状态](evidence/v1/final/exec5-3100-3199-20261125-202416/report.md)
-- [逐回合 CSV](evidence/v1/final/exec5-3100-3199-20261125-202416/exec5.csv) · [评测汇总](evidence/v1/final/exec5-3100-3199-20261125-202416/eval-summary.txt)
+- [逐回合 CSV](evidence/v1/final/exec5-3100-3199-20261125-202416/exec5.csv) · [原始评测日志](evidence/v1/final/exec5-3100-3199-20261125-202416/eval.log) · [评测汇总](evidence/v1/final/exec5-3100-3199-20261125-202416/eval-summary.txt) · [检查点路径](evidence/v1/final/exec5-3100-3199-20261125-202416/checkpoint.txt)
+- [训练配置](evidence/v1/training/v1_3000_20261125_194654/run_config.json) · [训练指标](evidence/v1/training/v1_3000_20261125_194654/metrics.csv) · [逐种子配对结果](evidence/v1/paired/v1_3000_20261125_194654-step_003000-1010-1019/paired-comparison.csv)
+- [成功回放 · 3107](evidence/v1/final/exec5-3100-3199-20261125-202416/videos/seed_003107.mp4) · [失败回放 · 3111](evidence/v1/final/exec5-3100-3199-20261125-202416/videos/seed_003111.mp4)
 - [v1 采集、训练与配对评测入口](scripts/run_panda_lift_v1.py)
